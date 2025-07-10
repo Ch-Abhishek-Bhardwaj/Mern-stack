@@ -1,0 +1,11 @@
+Install Material Theme Icon.
+Then Type "npm init" in Terminal. To initiate new project
+in package.json ADD "start": "node app.js",
+then you can start with command "npm start"
+or anything like
+"chal-oye": "node app.js", and then npm run chal-oye // because start is a special command so we use run
+install package  using npm install <package-name>
+install nodemon
+npm install nodemon --save-dev
+To install Globaly=>
+npm install -g nodemon
