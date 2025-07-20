@@ -1,0 +1,26 @@
+app.use(express.urlencoded()); it is used to body parsing when ever data comes
+body-parser is used to get body
+
+to serve a file we we use core module 
+path 
+
+we have to make the css file public to serve it as a static file we will use 
+
+app.use(express.static(path.join(rootDir,"")))
+
+to add tailwind .css
+Tailwind CSS IntelliSense=>extension
+To make a new project=> npm init -y
+to add Tailwind=>npm install -D tailwind postcss autoprefixer
+to add a config file npx tailwindcss init -p
+
+then make a file in views named input.css and write these
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+then enter a command :=> npx tailwindcss -init
+Add output.css
+
+npx tailwindcss -i ./views/input.css -o ./public/output.css --watch
+
+then npm run tailwind => then shift to other terminal  and keep it running in that terminal 
